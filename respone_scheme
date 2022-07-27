@@ -1,0 +1,543 @@
+{
+  "center_tab": true,
+  "distance": "7,2 км",
+  "is_fixed_price": true,
+  "jams": true,
+  "notify": null,
+  "time": "19 мин",
+  "time_seconds": 1140,
+  "typed_experiments": {
+    "items": [
+      {
+        "name": "plugin_intercity",
+        "value": {}
+      },
+      {
+        "name": "plugin_preorder",
+        "value": {
+          "available": "true"
+        }
+      },
+      {
+        "name": "plugin_offer_coupon",
+        "value": {}
+      },
+      {
+        "name": "plugin_user_tags",
+        "value": {}
+      }
+    ],
+    "version": 3719335
+  },
+  "offer": "",
+  "service_levels": [
+    {
+      "cars": [
+        "Hyundai Solaris",
+        "Kia Rio",
+        "Volkswagen Polo"
+      ],
+      "description": "351 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "351 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 175 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 175 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 3 мин., далее 6,73 руб./мин."
+        },
+        {
+          "type": "comment",
+          "value": "включено 2 км, далее 25,58 руб./км"
+        }
+      ],
+      "name": "Эконом",
+      "pin_description": "Отсюда 351 руб.",
+      "price": "350 руб.",
+      "service_level": 50,
+      "class": "econom",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "351 руб."
+      },
+      "estimated_waiting": {
+        "seconds": 240,
+        "message": "4 мин"
+      }
+    },
+    {
+      "cars": [
+        "Только новые просторные автомобили. \n\nSkoda Octavia",
+        "Ford Galaxy",
+        "Hyundai i40 и другие."
+      ],
+      "description": "463 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "463 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 169 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 169 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 3 мин., далее 10,09 руб./мин."
+        },
+        {
+          "type": "comment",
+          "value": "включено 2 км, далее 33,64 руб./км"
+        }
+      ],
+      "name": "Комфорт",
+      "pin_description": "Отсюда 463 руб.",
+      "price": "460 руб.",
+      "service_level": 70,
+      "class": "business",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "463 руб."
+      },
+      "estimated_waiting": {
+        "seconds": 660,
+        "message": "11 мин"
+      }
+    },
+    {
+      "cars": [
+        "Toyota Camry",
+        "Kia Optima",
+        "Hyundai Sonata"
+      ],
+      "description": "549 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "549 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 199 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 199 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 3 мин., далее 13,2 руб./мин."
+        },
+        {
+          "type": "comment",
+          "value": "включено 2 км, далее 35,21 руб./км"
+        }
+      ],
+      "name": "Комфорт+",
+      "pin_description": "Отсюда 549 руб.",
+      "price": "540 руб.",
+      "service_level": 80,
+      "class": "comfortplus",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "549 руб."
+      },
+      "tariff_unavailable": {
+        "code": "no_free_cars_nearby",
+        "message": "Нет свободных машин"
+      }
+    },
+    {
+      "cars": [
+        "Mercedes-Benz E-class",
+        "BMW 5",
+        "Audi A6"
+      ],
+      "description": "920 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "920 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 299 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 299 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 5 мин., далее 18 руб./мин."
+        },
+        {
+          "type": "comment",
+          "value": "включено 0 км, далее 53 руб./км"
+        }
+      ],
+      "name": "Business",
+      "pin_description": "Отсюда 920 руб.",
+      "price": "920 руб.",
+      "service_level": 90,
+      "class": "vip",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "920 руб."
+      },
+      "tariff_unavailable": {
+        "code": "no_free_cars_nearby",
+        "message": "Нет свободных машин"
+      }
+    },
+    {
+      "cars": [
+        "Skoda Octavia",
+        "Hyundai Solaris",
+        "Kia Rio"
+      ],
+      "description": "482 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "482 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 229 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 229 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 3 мин., далее 10,66 руб./мин."
+        },
+        {
+          "type": "comment",
+          "value": "включено 2 км, далее 33,31 руб./км"
+        }
+      ],
+      "name": "Детский",
+      "pin_description": "Отсюда 482 руб.",
+      "price": "480 руб.",
+      "service_level": 60,
+      "class": "child_tariff",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "482 руб."
+      },
+      "title": "Выбрать кресло",
+      "estimated_waiting": {
+        "seconds": 660,
+        "message": "11 мин"
+      }
+    },
+    {
+      "cars": [
+        "Ford Galaxy",
+        "Volkswagen Caddy"
+      ],
+      "description": "669 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "669 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 549 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 549 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 7 мин., далее 10,81 руб./мин."
+        },
+        {
+          "type": "comment",
+          "value": "включено 7 км, далее 34,59 руб./км"
+        }
+      ],
+      "name": "Минивэн",
+      "pin_description": "Отсюда 669 руб.",
+      "price": "660 руб.",
+      "service_level": 95,
+      "class": "minivan",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "669 руб."
+      },
+      "tariff_unavailable": {
+        "code": "no_free_cars_nearby",
+        "message": "Нет свободных машин"
+      }
+    },
+    {
+      "cars": [
+        "Можно отдать и получить посылку у машины",
+        "а можно выбрать опцию «От двери до двери»"
+      ],
+      "description": "270 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "270 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 135 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 135 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 4 мин., далее 6,43 руб./мин."
+        },
+        {
+          "type": "comment",
+          "value": "включено 3 км, далее 19,3 руб./км"
+        }
+      ],
+      "name": "Экспресс",
+      "pin_description": "Отсюда 270 руб.",
+      "price": "270 руб.",
+      "requirements": {
+        "destination": true
+      },
+      "service_level": 154,
+      "class": "express",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "270 руб."
+      },
+      "title": "Заказать",
+      "estimated_waiting": {
+        "seconds": 660,
+        "message": "11 мин"
+      },
+      "search_screen": {
+        "title": "Поиск машины"
+      }
+    },
+    {
+      "cars": [
+        "Заберёт посылку от вашей двери и доставит до двери получателя — это бесплатно"
+      ],
+      "description": "424 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "424 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 322 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 322 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 1 км,"
+        },
+        {
+          "type": "comment",
+          "value": "далее 29,9 руб./км"
+        }
+      ],
+      "name": "Курьер",
+      "pin_description": "Отсюда 424 руб.",
+      "price": "420 руб.",
+      "requirements": {
+        "destination": true
+      },
+      "service_level": 155,
+      "class": "courier",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "424 руб."
+      },
+      "title": "Заказать",
+      "estimated_waiting": {
+        "seconds": 1020,
+        "message": "17 мин"
+      },
+      "search_screen": {
+        "title": "Ищем курьера",
+        "subtitle": "Есть несколько курьеров. Смотрим, какой подойдёт лучше всего"
+      }
+    },
+    {
+      "cars": [
+        "10 минут на погрузку и 10 минут на разгрузку включены в стоимость",
+        "потом — по счётчику"
+      ],
+      "description": "1818 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "1818 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 1659 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 1659 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 10 мин., далее 24,03 руб./мин."
+        },
+        {
+          "type": "comment",
+          "value": "включено 5 км, далее 54,07 руб./км"
+        }
+      ],
+      "name": "Грузовой",
+      "pin_description": "Отсюда 1818 руб.",
+      "price": "1810 руб.",
+      "service_level": 119,
+      "class": "cargo",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "1818 руб."
+      },
+      "tariff_unavailable": {
+        "code": "no_free_cars_nearby",
+        "message": "Нет свободных машин"
+      },
+      "title": "Выбрать размер",
+      "search_screen": {
+        "subtitle": "Грузовик искать чуть дольше, чем такси. Пожалуйста, подождите."
+      }
+    },
+    {
+      "cars": [
+        "И не садиться за руль"
+      ],
+      "description": "1799 руб.",
+      "details": [
+        {
+          "description": "всего",
+          "price": "1799 руб."
+        }
+      ],
+      "details_tariff": [
+        {
+          "type": "price",
+          "value": "от 1799 руб."
+        },
+        {
+          "type": "icon",
+          "value": "от 1799 руб."
+        },
+        {
+          "type": "comment",
+          "value": "включено 25 мин., далее 44 руб./мин."
+        },
+        {
+          "type": "comment",
+          "value": "включено 15 км, далее 60 руб./км"
+        }
+      ],
+      "name": "Водитель",
+      "pin_description": "Отсюда 1799 руб.",
+      "price": "1790 руб.",
+      "service_level": 123,
+      "class": "personal_driver",
+      "is_fixed_price": true,
+      "is_hidden": false,
+      "description_parts": {
+        "prefix": "",
+        "suffix": "",
+        "value": "1799 руб."
+      },
+      "tariff_unavailable": {
+        "code": "no_free_cars_nearby",
+        "message": "Нет свободных водителей"
+      },
+      "title": "Вызвать",
+      "search_screen": {
+        "title": "Поиск водителя"
+      }
+    }
+  ]
+}
+
+Эконом - 340руб.
+Комфорт - 470руб.
+Комфорт+ - 570руб.
+Business - 1040руб.
+Детский - 480руб.
+Минивэн - 830руб.
+Экспресс - 240руб.
+Курьер - 610руб.
+Грузовой - 980руб.
+Водитель - 1790руб.
