@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "yandex")
 public class YandexProperties {
-    private String clid;
-    private String apiKey;
+    private Boolean skip_estimated_waiting;
+    private Boolean supports_forced_surge;
 }

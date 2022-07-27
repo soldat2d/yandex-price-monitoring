@@ -9,11 +9,10 @@ spring:
       ddl-auto: create
     show-sql: true
 coordinate:
-  start-longitude: 55.6725084
-  start-latitude: 52.4427404
-  finish-longitude: 55.7377197
-  finish-latitude: 52.4063506
+  path:
+    - [55.6725084, 52.4427404]
+    - [55.7377197, 52.4063506]
 yandex:
-  url: https://taxi-routeinfo.taxi.yandex.net/taxi_info
-  clid: ${YANDEX_CLID}
-  apikey: ${YANDEX_APIKEY}
+  url: https://taxi.yandex.ru/3.0/routestats
+  skip_estimated_waiting: true
+  supports_forced_surge: false

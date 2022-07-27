@@ -531,6 +531,34 @@
   ]
 }
 
+var axios = require('axios');
+var data = JSON.stringify({
+    "route": [[37.9271659429, 55.7487291122], [37.943649, 55.799156]], // координаты откуда - куда
+    "skip_estimated_waiting": true,
+    "supports_forced_surge": false
+});
+
+var config = {
+    method: 'post',
+    url: 'https://taxi.yandex.ru/3.0/routestats',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    data: data
+};
+
+axios(config)
+    .then(function (response) {
+        console.log(`Маршрут составит ${response.data.distance} и займет ${response.data.time}`);
+        response.data.service_levels.forEach(function (i) {
+            console.log(`${i.name} - ${i.price}`);
+        })
+    })
+    .catch(function (error) {
+        console.log(error);
+    });
+
+
 Эконом - 340руб.
 Комфорт - 470руб.
 Комфорт+ - 570руб.
