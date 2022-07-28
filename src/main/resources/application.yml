@@ -9,10 +9,8 @@ spring:
       ddl-auto: create
     show-sql: true
 yandex-request:
-  url: https://taxi.yandex.ru/3.0/routestats
-#  url: http://ptsv2.com/t/47qx7-1659015937/post
-  route:
-    - [55.6725084, 52.4427404]
-    - [55.7377197, 52.4063506]
+#  url: https://taxi.yandex.ru/3.0/routestats
+  url: http://ptsv2.com/t/47qx7-1659015937/post
+  route: [[55.6725084, 52.4427404],[55.7377197, 52.4063506]]
   skip-estimated-waiting: true
   supports-forced-surge: false

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "yandex-request")
 public class YandexRequestParams {
-    private String[][] route;
+    private Double[][] route;
     private Boolean skip_estimated_waiting;
     private Boolean supports_forced_surge;
 }
