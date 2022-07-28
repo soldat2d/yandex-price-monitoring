@@ -5,9 +5,8 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Price {
-      private String currency;
-      private Double distance;
-      private List<Options> options;
+public class YandexResponse {
+      private String distance;
       private String time;
+      private List<ServiceLevel> serviceLevels;
 }

@@ -6,7 +6,9 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-@ConfigurationProperties(prefix = "coordinate")
-public class CoordinateProperties {
-    private String[][] path;
+@ConfigurationProperties(prefix = "yandex-request")
+public class YandexRequestParams {
+    private String[][] route;
+    private Boolean skip_estimated_waiting;
+    private Boolean supports_forced_surge;
 }
