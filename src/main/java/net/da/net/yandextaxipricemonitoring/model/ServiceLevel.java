@@ -5,5 +5,5 @@ import lombok.Data;
 @Data
 public class ServiceLevel {
         private String name;
-        private String price;
+        private Double price;
 }

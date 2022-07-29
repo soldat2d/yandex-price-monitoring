@@ -1,5 +1,6 @@
 package net.da.net.yandextaxipricemonitoring.scheduler;
 
+import io.micrometer.core.annotation.Timed;
 import lombok.RequiredArgsConstructor;
 import net.da.net.yandextaxipricemonitoring.properties.YandexRequestParams;
 import net.da.net.yandextaxipricemonitoring.service.TaxiService;
@@ -12,7 +13,8 @@ public class YandexScheduler {
     private final YandexRequestParams yandexRequestParams;
     private final TaxiService taxiService;
 
-    @Scheduled(fixedDelay = 120_000)
+    @Timed
+    @Scheduled(fixedDelay = 10_000)
     public void yandexUpdatePrice() {
         taxiService.getPrice(yandexRequestParams);
     }

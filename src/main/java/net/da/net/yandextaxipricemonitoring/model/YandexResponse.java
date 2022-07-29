@@ -8,5 +8,5 @@ import java.util.List;
 public class YandexResponse {
       private String distance;
       private String time;
-      private List<ServiceLevel> serviceLevels;
+      private List<ServiceLevel> service_levels;
 }

@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 @ControllerAdvice
-public class DefaultAdvice extends ResponseEntityExceptionHandler {
+public class DefaultAdviceController extends ResponseEntityExceptionHandler {
 
-    @ExceptionHandler(RuntimeException.class)
-    public ResponseEntity<String> handleException(RuntimeException e) {
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<String> handleException(Exception e) {
         System.out.println(e.getMessage());
         return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
     }

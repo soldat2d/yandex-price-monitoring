@@ -17,9 +17,9 @@ public class MomentPrice {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private LocalDateTime date;
-    private Double price;
+    private Integer price;
 
-    public MomentPrice(LocalDateTime date, Double price) {
+    public MomentPrice(LocalDateTime date, Integer price) {
         this.date = date;
         this.price = price;
     }
