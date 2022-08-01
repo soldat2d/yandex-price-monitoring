@@ -569,3 +569,6 @@ Business - 1040руб.
 Курьер - 610руб.
 Грузовой - 980руб.
 Водитель - 1790руб.
+
+docker build -t taxi-service:latest .
+docker compose up

@@ -13,7 +13,7 @@ public class YandexScheduler {
     private final YandexRequestParams yandexRequestParams;
     private final TaxiService taxiService;
 
-    @Timed
+    @Timed("yandexUpdatePrice")
     @Scheduled(fixedDelay = 10_000)
     public void yandexUpdatePrice() {
         taxiService.getPrice(yandexRequestParams);

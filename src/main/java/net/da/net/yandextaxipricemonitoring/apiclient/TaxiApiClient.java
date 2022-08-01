@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @FeignClient(name = "yandexClient", url = "${yandex-request.url}")
 public interface TaxiApiClient {
-    @Timed
+    @Timed("getPrices")
     @PostMapping
     @Headers("Content-Type: application/json")
     YandexResponse getPrice(YandexRequestParams yandexRequestParams);
